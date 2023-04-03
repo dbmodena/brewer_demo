@@ -77,5 +77,3 @@ html_format = """
     }
 </style>
 """
-#  Note: quando stampa un gruppo di entità, per la prima e per l'ultima funziona bene,
-#  per quelle di mezzo invece ricollassa automaticamente i record dopo tot)
