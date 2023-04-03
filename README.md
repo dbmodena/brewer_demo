@@ -8,4 +8,4 @@ The code of BrewER itself, contained in the file "brewer.py", has been refined f
 
 [1] Giovanni Simonini, Luca Zecchini, Sonia Bergamaschi, Felix Naumann: "Entity Resolution On-Demand". Proceedings of the VLDB Endowment (PVLDB), vol. 15, n. 7, pp. 1506-1518 (2022)
 
-[2] Luca Zecchini, Giovanni Simonini, Sonia Bergamaschi, Felix Naumann: "BrewER: Entity Resolution On-Demand" Submitted to Proceedings of the VLDB Endowment (PVLDB), vol. 16 (2023)
+[2] Luca Zecchini, Giovanni Simonini, Sonia Bergamaschi, Felix Naumann: "BrewER: Entity Resolution On-Demand". Submitted to Proceedings of the VLDB Endowment (PVLDB), vol. 16 (2023)
