@@ -42,10 +42,10 @@ datasets = {"beer": dict(),
             }
 
 html_format = """
+<script src="https://code.jquery.com/jquery-latest.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){
         $('tr.entity').click(function(){
-            // $(this).find('span').text(function(_, value){return value=='-'?'+':'-'});
             $(this).nextUntil('tr.entity').slideToggle(100, function(){
             });
         });
@@ -58,8 +58,8 @@ html_format = """
     {
         text-align: left;
         word-wrap: break-word;
-        column-width: 125px;
-        max-width: 125px;
+        column-width: 150px;
+        max-width: 150px;
     }
     table.dataframe tr.entity
     {
@@ -77,3 +77,5 @@ html_format = """
     }
 </style>
 """
+#  Note: quando stampa un gruppo di entità, per la prima e per l'ultima funziona bene,
+#  per quelle di mezzo invece ricollassa automaticamente i record dopo tot)

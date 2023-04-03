@@ -352,11 +352,12 @@ def brewer(task, ds, gold, candidates, mode, results):
                 table_html = table_html.replace("<tr>", '<tr class="entity">', 1)
                 table_html = table_html.replace("<tr>", '<tr class="record">')
                 # table_html = table_html.replace("</td>", "&nbsp;&nbsp;&nbsp;<span><b>+</b></span></td>", 1)
-                table_html += var.html_format
+                table_html = var.html_format + table_html
                 # print(table_html)
                 display(HTML(table_html))
                 # pprint.pprint(entity)
-                time.sleep(random.uniform(0.5, 1.5))
+                # time.sleep(random.uniform(0.5, 1.5))
+                time.sleep(0.5)
                 results.append(entity)
                 num_emitted += 1
 
